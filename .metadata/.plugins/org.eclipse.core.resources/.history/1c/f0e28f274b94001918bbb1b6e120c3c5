@@ -1,0 +1,15 @@
+package OrientacaoObjetos;
+
+public class Funcionario {
+	public String nome;
+	public double salario;
+	
+	public double aumentaSal(double aumento) {
+		this.salario += aumento;
+		return aumento;
+	}
+	
+	public void consultaDado() {
+		System.out.printf("Nome: %s \nSalário: %2f ", this.nome, this.salario);
+	}
+}

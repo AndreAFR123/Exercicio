@@ -1,0 +1,28 @@
+package OrientacaoObjetos;
+
+public class ContaBanco {
+	int numCB;
+	double saldo;
+	double limite = 100;
+	int numAg;
+	String extrato;
+	
+	public double depositar(double deposita) {
+		this.saldo += deposita;
+		return this.saldo;
+	}
+	
+	public double saque(double saque) {
+		this.saldo -= saque;
+		return this.saldo;
+	}
+	
+	public double consultaSaldo() {
+		return this.saldo;
+	}
+	
+	public String extrato() {
+		extrato = "Saldo: " + this.saldo + "\nLimite: ";
+		return extrato; 
+	}
+}

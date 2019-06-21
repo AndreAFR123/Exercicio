@@ -1,0 +1,15 @@
+package OrientacaoObjetos;
+
+public class Gerente {
+	double salario;
+
+	public double aumentoPerc() {
+		this.salario *= 0.1;
+		return this.salario;
+	}
+	
+	public double aumentoVar(double perc) {
+		this.salario *= perc;
+		return this.salario;
+	}
+}

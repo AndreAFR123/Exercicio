@@ -1,0 +1,8 @@
+package OrientacaoObjetos;
+
+public class Aluno {
+	String nome;
+	String dataNasc;
+	double numRG;
+	Turma turma;
+}

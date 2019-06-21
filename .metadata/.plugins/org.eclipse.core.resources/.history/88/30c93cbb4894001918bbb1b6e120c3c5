@@ -1,0 +1,17 @@
+package TesteClasse;
+
+import OrientacaoObjetos.ContaBanco;
+
+public class TesteConta {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ContaBanco cb = new ContaBanco();
+		cb.depositar(5000);
+		cb.saque(1000);
+		cb.consultaSaldo();
+		cb.extrato();
+		
+	}
+}

@@ -1,0 +1,12 @@
+package OrientacaoObjetos;
+
+public class Aluno {
+	String nome;
+	String dataNasc;
+	double numRG;
+	String periodoTur;
+	int serieTur;
+	String siglaTur;
+	String ensinoTur;
+	Turma turma;
+}

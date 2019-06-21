@@ -1,0 +1,5 @@
+package OrientacaoObjetos;
+
+public class AgenciaBanco {
+	int num;
+}

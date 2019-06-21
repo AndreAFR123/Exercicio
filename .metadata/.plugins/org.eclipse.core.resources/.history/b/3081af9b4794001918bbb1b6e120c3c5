@@ -1,0 +1,8 @@
+package OrientacaoObjetos;
+
+public class ContaBanco {
+	int numCB;
+	double saldo;
+	double limite = 100;
+	int numAg;
+}
