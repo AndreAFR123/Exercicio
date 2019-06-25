@@ -10,17 +10,17 @@ public class Exec {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		AgenciaBanco ab1 = new AgenciaBanco();
+		AgenciaBanco ab1 = new AgenciaBanco(1);
 		ab1.num = 123;
 		System.out.println("NumeroAgencia: " + ab1.num);
 		System.out.println("-----------------------");
 		
-		AgenciaBanco ab2 = new AgenciaBanco();
+		AgenciaBanco ab2 = new AgenciaBanco(2);
 		ab2.num = 400;
 		System.out.println("NumeroAgencia: " + ab2.num);
 		System.out.println("-----------------------");
 		
-		ContaBanco cb1 = new ContaBanco();
+		ContaBanco cb1 = new ContaBanco(ab2);
 		cb1.numCB = 150;
 		cb1.saldo = 1000;
 		cb1.numAg = ab1.num;
@@ -30,7 +30,7 @@ public class Exec {
 		System.out.println("Número Agencia: " + cb1.numAg);
 		System.out.println("-----------------------");
 		
-		ContaBanco cb2 = new ContaBanco();
+		ContaBanco cb2 = new ContaBanco(ab1);
 		cb2.numCB = 150;
 		cb2.saldo = 1000;
 		cb2.numAg = ab2.num;
@@ -54,7 +54,7 @@ public class Exec {
 		System.out.println("Nome: " + c2.nome);
 		System.out.println("-----------------------");
 		
-		CartaoCredito cc1 = new CartaoCredito();
+		CartaoCredito cc1 = new CartaoCredito(4);
 		cc1.num = 1;
 		cc1.validade = 16092002;
 		cc1.idCli = c1.idC;
@@ -63,7 +63,7 @@ public class Exec {
 		System.out.println("ID Cliente: " + cc1.idCli);
 		System.out.println("-----------------------");
 		
-		CartaoCredito cc2 = new CartaoCredito();
+		CartaoCredito cc2 = new CartaoCredito(5);
 		cc2.num = 1;
 		cc2.validade = 16092002;
 		cc2.idCli = c2.idC;
