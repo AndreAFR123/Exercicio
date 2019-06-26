@@ -1,0 +1,11 @@
+package teste;
+
+public class ArrayMetodo {
+	
+	public void imprimeArray(int[] numeros2) {
+		for (int numero : numeros2) {
+			System.out.println(numero);
+		}
+	}
+	
+}

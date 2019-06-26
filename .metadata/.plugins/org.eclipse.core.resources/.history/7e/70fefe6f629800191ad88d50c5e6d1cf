@@ -1,0 +1,22 @@
+package teste;
+
+public class Array {
+
+	public void imprimeArray(int[] numeros2) {
+		for (int numero : numeros2) {
+			System.out.println(numero);
+		}
+	}
+	
+	public static void main(String[] args) {
+		
+		
+		int[] numeros1 = new int[100];
+		int[] numeros2 = new int[] {100, 87};
+
+		System.out.println(numeros1[0]);
+		System.out.println(numeros1[1]);
+		
+		imprimeArray(numeros2);
+	}
+}

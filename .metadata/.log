@@ -54,3 +54,8 @@ Java Model Exception: Java Model Status [aumentaSal() [in Funcionario [in [Worki
 
 !ENTRY org.eclipse.core.resources 2 10035 2019-06-21 14:54:17.555
 !MESSAGE The workspace will exit with unsaved changes in this session.
+
+!ENTRY org.eclipse.core.resources 2 2 2019-06-26 19:58:13.374
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-06-26 19:58:13.374
+!MESSAGE The project description file (.project) for 'Testes' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
