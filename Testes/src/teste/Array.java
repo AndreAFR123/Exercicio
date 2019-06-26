@@ -1,5 +1,7 @@
 package teste;
 
+import java.util.Arrays;
+
 public class Array {
 
 	public static void imprimeArray(int[] numeros2) {
@@ -18,5 +20,13 @@ public class Array {
 		System.out.println(numeros1[1]);
 		
 		imprimeArray(numeros2);
+		
+		String[] nomes = new String[]{"Rosemann","Felipe","Andre"};
+		
+		Arrays.sort(nomes);
+		
+		for(String nome : nomes) {
+			System.out.println(nome);
+		}
 	}
 }
