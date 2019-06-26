@@ -15,8 +15,9 @@ public class TesteFuncionario2 {
 			f.nome = Teclado.lerTexto("Digite o nome: ");
 			f.salario = Teclado.lerDouble("Digite o salario: ");
 			
-			opcao = Teclado.lerTexto("Deseja alterar nome? \nS ou N");
-			
+			System.out.println("Nome: " + f.nome);
+			System.out.println("Salario: " + f.salario);
+			opcao = Teclado.lerTexto("Deseja alterar os dados? \nS ou N");
 		}
 
 	}

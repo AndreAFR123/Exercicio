@@ -12,8 +12,9 @@ public class ContaBanco {
 		this.agencia = agencia;
 	}
 
-	public void transfere(ContaBanco conta, double saldo) {
-		conta.saldo = this.saldo;
+	public void transfere(ContaBanco conta1,ContaBanco conta2, double saldo) {
+		conta1.saldo -= saldo;
+		conta2.saldo += saldo;
 	}
 
 	public double depositar(double deposita) {

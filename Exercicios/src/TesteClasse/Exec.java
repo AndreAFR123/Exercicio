@@ -21,6 +21,7 @@ public class Exec {
 		System.out.println("-----------------------");
 		
 		ContaBanco cb1 = new ContaBanco(ab2);
+		ContaBanco cb2 = new ContaBanco(ab1);
 		cb1.numCB = 150;
 		cb1.saldo = 1000;
 		cb1.numAg = ab1.num;
@@ -30,14 +31,19 @@ public class Exec {
 		System.out.println("Número Agencia: " + cb1.numAg);
 		System.out.println("-----------------------");
 		
-		ContaBanco cb2 = new ContaBanco(ab1);
 		cb2.numCB = 150;
 		cb2.saldo = 1000;
 		cb2.numAg = ab2.num;
+		cb2.transfere(cb1, cb2, 1500);
 		System.out.println("Limite: " + cb2.limite);
 		System.out.println("Numero: " + cb2.numCB);
 		System.out.println("Saldo: " + cb2.saldo);
 		System.out.println("Número Agencia: " + cb2.numAg);
+		System.out.println("-----------------------");
+		
+		System.out.println("-----------------------");
+		System.out.println("Saldo 1: " + cb1.saldo);
+		System.out.println("Saldo 2: " + cb2.saldo);
 		System.out.println("-----------------------");
 		
 		Cliente c2 = new Cliente();
