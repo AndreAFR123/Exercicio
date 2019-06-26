@@ -2,7 +2,7 @@ package OrientacaoObjetos;
 
 public class Funcionario {
 	public String nome;
-	public double salario;
+	public double salario = 1000;
 	
 	public double aumentaSal(double aumento) {
 		this.salario += aumento;

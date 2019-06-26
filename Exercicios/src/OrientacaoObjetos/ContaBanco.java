@@ -6,23 +6,33 @@ public class ContaBanco {
 	public double limite = 100;
 	public int numAg;
 	public String extrato;
-	
+	public AgenciaBanco agencia;
+
+	public ContaBanco(AgenciaBanco agencia) {
+		this.agencia = agencia;
+	}
+
+	public void transfere(ContaBanco conta1,ContaBanco conta2, double saldo) {
+		conta1.saldo -= saldo;
+		conta2.saldo += saldo;
+	}
+
 	public double depositar(double deposita) {
 		this.saldo += deposita;
 		return this.saldo;
 	}
-	
+
 	public double saque(double saque) {
 		this.saldo -= saque;
 		return saque;
 	}
-	
+
 	public double consultaSaldo() {
 		return this.saldo;
 	}
-	
+
 	public String extrato() {
 		extrato = "Saldo: " + this.saldo + "\nLimite: " + this.limite;
-		return extrato; 
+		return extrato;
 	}
 }
