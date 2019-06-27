@@ -5,4 +5,5 @@
     <fullyQualifiedTypeName name="teste.ArrayMetodo"/>
     <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="br.com.util.Teclado"/>
 </qualifiedTypeNameHistroy>

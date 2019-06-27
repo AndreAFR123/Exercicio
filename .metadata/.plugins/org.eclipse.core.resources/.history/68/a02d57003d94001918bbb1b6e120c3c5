@@ -1,7 +1,0 @@
-package OrientacaoObjetos;
-
-public class CartaoCredito {
-	int num = 3;
-	int validade = 17062017;
-	
-}
