@@ -1,0 +1,15 @@
+package teste;
+
+public class Array {
+
+	public static void main(String[] args) {
+		
+		ArrayMetodo a = new ArrayMetodo();
+		int[] numeros1 = new int[100];
+
+		System.out.println(numeros1[0]);
+		System.out.println(numeros1[1]);
+		a.imprimeArray(numeros1);
+
+	}
+}

@@ -1,0 +1,14 @@
+package teste;
+
+public class Array {
+	
+	public static void main(String[] args) {
+	
+		int[] numeros = {100, 87};
+		
+		System.out.println(numeros[0]);
+		System.out.println(numeros[1]);
+		System.out.println(numeros[2]);
+		
+	}	
+}

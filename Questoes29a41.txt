@@ -12,3 +12,13 @@
 39.    Faça um teste para verificar o funcionamento do método transfere.
 40.    Acrescente a todos os funcionários um salário inicial de R$1000,00.
 41.    Crie uma classe chamada TesteFuncionario2. Dentro dessa classe, crie um objeto do tipo Funcionario. Receba do teclado o valor para o atributo nome. Depois crie um laço que permita que o usuário possa alterar o nome e o salário dos funcionários e também visualizar os dados atuais.
+
+42. Dentro de seu pacote de exercícios crie um pacote chamado arrays para os arquivos desenvolvidos.
+
+43. Crie um programa que imprima na tela os valores de um array.
+
+44. Faça um programa que ordene o array criado no exercício anterior.
+
+45. Faça um programa que calcule a média dos elementos de um Array.
+
+46. Crie um programa que encontre o maior número entre os valores do Array do exercício anterior.

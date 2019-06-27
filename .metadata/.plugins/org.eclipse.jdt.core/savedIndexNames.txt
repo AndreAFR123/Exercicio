@@ -1,4 +1,7 @@
 INDEX VERSION 1.131+C:\Andre\Exercicio\.metadata\.plugins\org.eclipse.jdt.core
 1142988539.index
+<<<<<<< HEAD
 2525604767.index
+=======
+>>>>>>> de5cf981bbf4284bbdf741ad98f026f7485a8d99
 2363955246.index

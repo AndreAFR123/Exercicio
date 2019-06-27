@@ -1,0 +1,16 @@
+package teste;
+
+public class Array {
+
+	public static void main(String[] args) {
+
+		int[] numeros = new int[100];
+
+		System.out.println(numeros[0]);
+		System.out.println(numeros[1]);
+
+		for(int numero : numeros) {
+			System.out.println(numero);
+		}
+	}
+}
