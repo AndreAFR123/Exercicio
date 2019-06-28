@@ -10,6 +10,5 @@ public class Questao01 {
 				System.out.println("Impar: " + i);
 			}
 		}
-
 	}
 }
