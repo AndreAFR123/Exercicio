@@ -1,0 +1,61 @@
+1- create table ALUNO (
+	nome varchar(45),
+	data_nasc date,
+	sobrenome varchar(45),
+	endereco varchar(45),
+);
+2- drop table aluno;
+
+3- create table ALUNO (
+	nome varchar(45) not null,
+	sobrenome varchar(45) not null,
+	nome_pai varchar(45),
+	nome_mae varchar(45),
+	endereco varchar(45),
+	num_casa int(11),
+	nome_cidade varchar(45),
+	estado char(2)
+);
+
+4- create table INSTITUICAO_ENSINO (
+	nome_instituto varchar(45) not null,
+	endereco varchar(45) not null,
+	razao_social varchar(100) not null,
+	telefone varchar(15) not null,
+	observacao varchar(255) not null
+);
+
+5- alter table INSTITUICAO_ENSINO drop column observacao;
+
+6- alter table INSTITUICAO_ENSINO add column nome_reitor varchar(45);
+alter table INSTITUICAO_ENSINO add column vice_reitor varchar(45);
+
+7- alter table INSTITUICAO_ENSINO add column data_inauguracao timestamp not null;
+
+8- alter table INSTITUICAO_ENSINO drop column nome_reitor;
+alter table INSTITUICAO_ENSINO drop column vice_reitor;
+
+9- create table PROFESSOR (
+	nome varchar(45) not null,
+	titularidade varchar(100) not null,
+	endereco varchar(45) not null
+);
+
+10- alter table PROFESSOR drop column endereco;
+alter table PROFESSOR 
+add column cidade_reside varchar(45) not null, 
+add column cidade_nasceu varchar(45) not null, 
+add column salario float(15) not null;
+
+11- alter table PROFESSOR change salario salario float(8,2)
+
+12- alter table INSTITUICAO_ENSINO rename FACULDADE;
+
+13- create table DEPARTAMENTO (
+	nome_departamento varchar(45) not null,
+	nome_presidente varchar(45) not null,
+	localizacao varchar(45) not null,
+	orcamento_mensal float(20)
+);
+
+14- alter table DEPARTAMENTO rename CENTRO;

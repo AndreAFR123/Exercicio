@@ -1,0 +1,78 @@
+1- insert into aluno (nome, sobrenome, nome_pai, nome_mae, endereco, num_casa, nome_cidade, estado) values("Andre", "Rosemann", "Sidney", "Carla", "Gustavo Zimmermmann", 7979, "Blumenau", "SC");
+
+insert into aluno (nome, sobrenome, nome_pai, nome_mae, endereco, num_casa, nome_cidade, estado) values("Felipe", "Silva", "Jose", "Maria", "Chile", 666, "Gaspar", "SC");
+
+insert into aluno (nome, sobrenome, nome_pai, nome_mae, endereco, num_casa, nome_cidade, estado) values("Pedro", "Rocha", "Joao", "Alice", "2 de Setembro", 763, "Brusque", "SC");
+
+insert into aluno (nome, sobrenome, nome_pai, nome_mae, endereco, num_casa, nome_cidade, estado) values("Ian", "Carlos", "Gabriel", "Kátia", "Rua Chile", 6699, "Natal", "RN");
+
+insert into aluno (nome, sobrenome, nome_pai, nome_mae, endereco, num_casa, nome_cidade, estado) values("Enzo", "Rocha", "Felipe", "Valentina", "Rua Garapinga", 4333, "Olinda", "PB");
+
+insert into aluno (nome, sobrenome, nome_pai, nome_mae, endereco, num_casa, nome_cidade, estado) values("Yasmin", "Silva", "Joaozinho", "Rayssa", "Quebrada", 1231, "Sidney", "CS");
+
+insert into aluno (nome, sobrenome, nome_pai, nome_mae, endereco, num_casa, nome_cidade, estado) values("Andreia", "Helena", "Pedrinho", "Georgia", "Rua dos Dinossauro", 999, "Amazonas", "AM");
+
+insert into aluno (nome, sobrenome, nome_pai, nome_mae, endereco, num_casa, nome_cidade, estado) values("Gabriel", "da Souza", "Gustavo", "Jessica", "Rua Ruada", 8787, "Brasil", "BR");
+
+insert into aluno (nome, sobrenome, nome_pai, nome_mae, endereco, num_casa, nome_cidade, estado) values("Facebookson", "Twitterson", "Facebookdad", "Facebookmom", "Rua Vazia", 0000, "Canada", "USA");
+
+insert into aluno (nome, sobrenome, nome_pai, nome_mae, endereco, num_casa, nome_cidade, estado) values("Nome Aleatorio", "Nulo", "Que Pai", "Que Mae", "Rua da Imaginacao", 000, "Cidade Fantasma", "CF");
+
+-----
+
+2- insert into faculdade (nome_instituto, endereco, razao_social, telefone, data_inauguracao) value ("FURB", "SLA", "Negro", "3333-3333", "1999-02-10 00:00:00");
+
+insert into faculdade (nome_instituto, endereco, razao_social, telefone, data_inauguracao) value ("UFSC", "Rua Qualquer", "Indio", "4444-4444", "2009-05-07 00:00:00");
+
+insert into faculdade (nome_instituto, endereco, razao_social, telefone, data_inauguracao) value ("CEDUP", "Agricola", "Branco", "3737-3737", "2002-09-16 00:00:00");
+
+insert into faculdade (nome_instituto, endereco, razao_social, telefone, data_inauguracao) value ("IFSC", "Algum Lugar", "Black", "9898-9898", "2007-07-07 00:00:00");
+
+insert into faculdade (nome_instituto, endereco, razao_social, telefone, data_inauguracao) value ("Entra21", "Blusoft", "White", "1212-1212", "2000-12-22 00:00:00");
+
+-------
+
+3- insert into professor (nome, cidade_reside, cidade_nasceu) values ("Alicio", "Blumenau", "Blumenau talvez");
+
+insert into professor (nome, cidade_reside, cidade_nasceu) values ("Joyce", "Gaspar", "Gaspar");
+
+insert into professor (nome, cidade_reside, cidade_nasceu) values ("Rubens", "Alemanha", "Alemanha");
+
+insert into professor (nome, cidade_reside, cidade_nasceu) values ("Inezita", "SLA", "SLA");
+
+insert into professor (nome, cidade_reside, cidade_nasceu) values ("Nayara", "OPA", "OPA");
+
+insert into professor (nome, cidade_reside, cidade_nasceu) values ("Maneca", "Farofeiro", "Farofeiro");
+
+insert into professor (nome, cidade_reside, cidade_nasceu) values ("Arnaldo", "Mata", "Mata");
+
+insert into professor (nome, cidade_reside, cidade_nasceu) values ("Moro", "Cowboy", "Cowboy");
+
+insert into professor (nome, cidade_reside, cidade_nasceu) values ("Cleomar", "Olinda", "Blumenau");
+
+insert into professor (nome, cidade_reside, cidade_nasceu) values ("Michele", "Blumenau", "Blumenau");
+
+----
+
+4- insert into centro (nome_departamento, nome_presidente, localizacao, orcamento_mensal) values ("RH", "Felipe", "Blumenau", 1000,00);
+
+insert into centro (nome_departamento, nome_presidente, localizacao) values ("Developer", "Andre", "Tokyo");
+
+insert into centro (nome_departamento, nome_presidente, localizacao) values ("Comerciante", "Rosemann", "Acre");
+
+5- select * from aluno;
+6- select * from professor;
+7- select * from faculdade;
+8- select * from centro;
+9- select nome, sobrenome, nome_pai from aluno;
+10- select nome, cidade_reside, cidade_nasceu from professor;
+11- select nome, endereco, nome_cidade, estado from aluno;
+12- select nome, titularidade from professor;
+13- select nome from professor;
+14- select nome, cidade_reside, cidade_nasceu from professor;
+15- select nome_instituto from faculdade;
+16- select nome_instituto, razao_social from faculdade;
+17- select nome_instituto, date_format(data_inauguracao, "%d/%m/%Y") from faculdade;
+18- select * from aluno where nome like "Joana%";
+19- select nome, sobrenome from aluno where nome_pai like "Patrick%";
+20- select nome from aluno where nome_cidade = "Amazonia";

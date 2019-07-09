@@ -1,0 +1,100 @@
+1- a)
+a.a)create table PECA(
+	pec_codigo int(11) PRIMARY KEY auto_increment,
+	pec_nome varchar(45) not null,
+	pec_preco float(8,2) not null,
+	pec_cor varchar(25) not null
+);
+
+a.b) create table UF (
+	uf_codigo int(11) PRIMARY KEY auto_increment,
+	uf_nome varchar(45) not null
+);
+
+a.c) create table CIDADE (
+	cid_codigo int(11) PRIMARY KEY auto_increment,
+	cid_nome varchar(45) not null,
+	cid_uf int(11)
+);
+
+a.d) create table FORNECEDOR (
+	for_codigo int(11) PRIMARY KEY auto_increment,
+	for_nome varchar(45) not null,
+	for_cidade int(11),
+	for_categoria varchar(45) not null
+);
+
+a.e) create table PROJETO (
+	pro_codigo int(11) PRIMARY KEY auto_increment,
+	pro_nome varchar(45) not null,
+	pro_duracao int(11) not null,
+	pro_custo float(6,2) not null
+);
+
+a.f) create table FORNECE_PARA (
+	fpa_peca int(11),
+	fpa_fornecedor int(11),
+	fpa_projeto int(11),
+	fpa_qtd int(11)
+);
+
+b) alter table cidade 
+add foreign key (cid_uf) references uf(uf_codigo);
+
+alter table fornecedor
+add foreign key (for_cidade) references cidade(cid_codigo);
+
+alter table fornece_para 
+add foreign key (fpa_peca) references peca(pec_codigo),
+add foreign key (fpa_fornecedor) references fornecedor(for_codigo),
+add foreign key (fpa_projeto) references projeto(pro_codigo);
+--------
+c) insert into peca (pec_nome, pec_preco, pec_cor) values ("Rosca", "10", "Cinza");
+
+insert into peca (pec_nome, pec_preco, pec_cor) values ("Parafuso", "7", "Prateado");
+
+insert into peca (pec_nome, pec_preco, pec_cor) values ("Chave de Fenda", "20", "Verde");
+
+-------
+
+insert into uf (uf_nome) values("SC");
+insert into uf (uf_nome) values("PR");
+insert into uf (uf_nome) values("RS");
+
+-------
+
+insert into cidade (cid_nome, cid_uf) values ("Blumenau", 1);
+insert into cidade (cid_nome, cid_uf) values ("Curitiba", 2);
+insert into cidade (cid_nome, cid_uf) values ("Caxias do Sul", 3);
+
+-------
+
+insert into fornecedor(for_nome, for_cidade, for_categoria) values ("Alicio", 1,"Mecanico");
+insert into fornecedor(for_nome, for_cidade, for_categoria) values ("Andre", 2,"Comerciante");
+insert into fornecedor(for_nome, for_cidade, for_categoria) values ("Felipe", 3,"Elétrico");
+
+-------
+
+insert into projeto(pro_nome, pro_duracao, pro_custo) values ("Folha", 120, 1000.00);
+insert into projeto(pro_nome, pro_duracao, pro_custo) values ("Estacionamento", 100, 5000.00);
+insert into projeto(pro_nome, pro_duracao, pro_custo) values ("Topzera", 150, 9999.99);
+
+------
+
+insert into fornece_para (fpa_peca, fpa_fornecedor, fpa_projeto, fpa_qtd) values (1,2,3, 15);
+insert into fornece_para (fpa_peca, fpa_fornecedor, fpa_projeto, fpa_qtd) values (3,2,1, 10);
+insert into fornece_para (fpa_peca, fpa_fornecedor, fpa_projeto, fpa_qtd) values (2,3,1, 20);
+
+d) 
+d.a) select pec_nome from peca;
+d.b) select for_nome, for_codigo from fornecedor;
+d.c) select pro_nome, pro_duracao from projeto;
+d.d) select pro_nome from projeto where pro_custo < 3000.00;
+d.e) select pec_nome from peca where pec_cor = "Vermelho" and pec_preco > 500;
+
+d.f) select pec_nome from peca where pec_cor = "Vermelho" and pec_preco > 25 order by pec_preco desc;
+d.g) select pec_nome from peca where (pec_cor = "Vermelho" OR pec_cor = "Amarelo") and (pec_preco = 10 or pec_preco = 12 or pec_preco = 15 pec_preco = 50 or pec_preco = 80) order by pec_preco asc;
+d.h) select for_nome from fornecedor where for_cidade like "S%";
+d.i) select pro_nome from projeto where pro_preco between 1000 and 5000;
+d.j) select for_codigo from fornecedor 
+inner join projeto on pro_codigo = pro_
