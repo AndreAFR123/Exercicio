@@ -77,7 +77,11 @@
           <children xsi:type="basic:PartSashContainer" xmi:id="_g3-zoJ0REemmKfCrVt0MmA" selectedElement="_g3-zoZ0REemmKfCrVt0MmA" horizontal="true">
             <children xsi:type="basic:PartStack" xmi:id="_g3-zoZ0REemmKfCrVt0MmA" elementId="topLeft" containerData="2500" selectedElement="_g3-zop0REemmKfCrVt0MmA">
               <tags>active</tags>
+<<<<<<< HEAD
               <children xsi:type="advanced:Placeholder" xmi:id="_g3-zop0REemmKfCrVt0MmA" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_gTfmgJ0REemmKfCrVt0MmA" closeable="true">
+=======
+              <children xsi:type="advanced:Placeholder" xmi:id="_JBO615n5Eem74dLK77tfKg" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_JBO8PJn5Eem74dLK77tfKg" closeable="true">
+>>>>>>> a35253ae4ec437b392847abe85060825c5ef4c3f
                 <tags>View</tags>
                 <tags>categoryTag:General</tags>
               </children>
@@ -209,7 +213,11 @@
       <tags>categoryTag:General</tags>
       <tags>active</tags>
       <tags>activeOnClose</tags>
+<<<<<<< HEAD
       <menus xmi:id="_hOz_QJ0REemmKfCrVt0MmA" elementId="org.eclipse.ui.navigator.ProjectExplorer">
+=======
+      <menus xmi:id="_JBO8PZn5Eem74dLK77tfKg" elementId="org.eclipse.ui.navigator.ProjectExplorer">
+>>>>>>> a35253ae4ec437b392847abe85060825c5ef4c3f
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
@@ -360,7 +368,11 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_fmSiQJ0REemmKfCrVt0MmA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
+<<<<<<< HEAD
         <children xsi:type="menu:HandledToolItem" xmi:id="_naEyIJ3WEemgnfSUIWhklw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_egRVeZ0REemmKfCrVt0MmA"/>
+=======
+        <children xsi:type="menu:HandledToolItem" xmi:id="_vrvbYJ6cEem61fuywzCGbA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_JBYxWJn5Eem74dLK77tfKg"/>
+>>>>>>> a35253ae4ec437b392847abe85060825c5ef4c3f
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_fmTJUJ0REemmKfCrVt0MmA" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -371,7 +383,18 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_fmTJU50REemmKfCrVt0MmA" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
+<<<<<<< HEAD
         <children xsi:type="menu:ToolBarSeparator" xmi:id="_fmTJVJ0REemmKfCrVt0MmA" elementId="additions" toBeRendered="false"/>
+=======
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_JBO835n5Eem74dLK77tfKg" elementId="additions" toBeRendered="false"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_JBO9Gpn5Eem74dLK77tfKg" elementId="org.eclipse.ui.edit.text.actionSet.presentation" visible="false">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_JBO9G5n5Eem74dLK77tfKg" elementId="org.eclipse.ui.genericeditor.togglehighlight" visible="false" iconURI="platform:/plugin/org.eclipse.ui.genericeditor/icons/full/etool16/mark_occurrences.png" selected="true" type="Check" command="_JBYxmpn5Eem74dLK77tfKg">
+          <persistedState key="IIdentifier" value="org.eclipse.ui.genericeditor/org.eclipse.ui.genericeditor.togglehighlight"/>
+          <visibleWhen xsi:type="ui:CoreExpression" xmi:id="_JBO9HJn5Eem74dLK77tfKg" coreExpressionId="programmatic.value"/>
+        </children>
+>>>>>>> a35253ae4ec437b392847abe85060825c5ef4c3f
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_hDW9MJ0REemmKfCrVt0MmA" elementId="org.eclipse.debug.ui.launchActionSet">
         <tags>Draggable</tags>
@@ -394,7 +417,11 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_fmTwYJ0REemmKfCrVt0MmA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
+<<<<<<< HEAD
         <children xsi:type="menu:HandledToolItem" xmi:id="_naK4wJ3WEemgnfSUIWhklw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_egQHep0REemmKfCrVt0MmA"/>
+=======
+        <children xsi:type="menu:HandledToolItem" xmi:id="_vsCWUJ6cEem61fuywzCGbA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_JBYw-5n5Eem74dLK77tfKg"/>
+>>>>>>> a35253ae4ec437b392847abe85060825c5ef4c3f
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_fmTwYZ0REemmKfCrVt0MmA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -1704,9 +1731,12 @@
     <tags>View</tags>
     <tags>categoryTag:WindowBuilder</tags>
   </descriptors>
+<<<<<<< HEAD
   <menuContributions xmi:id="_eevEWJ0REemmKfCrVt0MmA" elementId="org.eclipse.ui.window.customizePerspective" contributorURI="platform:/plugin/org.eclipse.platform" positionInParent="popup:toolbar">
     <children xsi:type="menu:HandledMenuItem" xmi:id="_eevEWZ0REemmKfCrVt0MmA" elementId="org.eclipse.ui.window.customizePerspective" contributorURI="platform:/plugin/org.eclipse.platform" label="%command.name.customize" command="_eevEWp0REemmKfCrVt0MmA"/>
   </menuContributions>
+=======
+>>>>>>> a35253ae4ec437b392847abe85060825c5ef4c3f
   <trimContributions xmi:id="_2r10UF9tEeO-yojH_y4TJA" elementId="org.eclipse.ui.ide.application.trimcontribution.QuickAccess" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" toBeRendered="false" parentId="org.eclipse.ui.main.toolbar" positionInParent="last">
     <children xsi:type="menu:ToolControl" xmi:id="_76uUAF9tEeO-yojH_y4TJA" elementId="Spacer Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
       <tags>glue</tags>
@@ -1724,12 +1754,21 @@
       <tags>SHOW_RESTORE_MENU</tags>
     </children>
   </trimContributions>
+<<<<<<< HEAD
   <commands xmi:id="_eevEWp0REemmKfCrVt0MmA" elementId="org.eclipse.ui.window.customizePerspective" contributorURI="platform:/plugin/org.eclipse.platform" commandName="Customize Perspective" description="Customize the current perspective"/>
   <commands xmi:id="_ef13kJ0REemmKfCrVt0MmA" elementId="org.eclipse.jdt.ui.correction.inlineLocal.assist" commandName="Quick Assist - Inline local variable" description="Invokes quick assist and selects 'Inline local variable'" category="_ef0pdJ0REemmKfCrVt0MmA"/>
   <commands xmi:id="_ef13kZ0REemmKfCrVt0MmA" elementId="org.eclipse.ui.edit.text.select.pageUp" commandName="Select Page Up" description="Select to the top of the page" category="_efw_EJ0REemmKfCrVt0MmA"/>
   <commands xmi:id="_ef13kp0REemmKfCrVt0MmA" elementId="org.eclipse.ui.edit.text.toggleWordWrap" commandName="Toggle Word Wrap" description="Toggle word wrap in the current text editor" category="_efvJ4J0REemmKfCrVt0MmA"/>
   <commands xmi:id="_ef2eoJ0REemmKfCrVt0MmA" elementId="org.eclipse.egit.ui.history.ResetQuickdiffBaseline" commandName="Reset quickdiff baseline" category="_efw_JZ0REemmKfCrVt0MmA">
     <parameters xmi:id="_ef2eoZ0REemmKfCrVt0MmA" elementId="org.eclipse.egit.ui.history.ResetQuickdiffBaselineTarget" name="Reset target (HEAD, HEAD^1)" optional="false"/>
+=======
+  <commands xmi:id="_JBYt6Jn5Eem74dLK77tfKg" elementId="org.eclipse.ui.window.customizePerspective" contributorURI="platform:/plugin/org.eclipse.platform" commandName="Customize Perspective" description="Customize the current perspective"/>
+  <commands xmi:id="_JBYt6Zn5Eem74dLK77tfKg" elementId="org.eclipse.jdt.ui.correction.inlineLocal.assist" commandName="Quick Assist - Inline local variable" description="Invokes quick assist and selects 'Inline local variable'" category="_JBYzC5n5Eem74dLK77tfKg"/>
+  <commands xmi:id="_JBYt6pn5Eem74dLK77tfKg" elementId="org.eclipse.ui.edit.text.select.pageUp" commandName="Select Page Up" description="Select to the top of the page" category="_JBYy3Jn5Eem74dLK77tfKg"/>
+  <commands xmi:id="_JBYt65n5Eem74dLK77tfKg" elementId="org.eclipse.ui.edit.text.toggleWordWrap" commandName="Toggle Word Wrap" description="Toggle word wrap in the current text editor" category="_JBYy2Jn5Eem74dLK77tfKg"/>
+  <commands xmi:id="_JBYt7Jn5Eem74dLK77tfKg" elementId="org.eclipse.egit.ui.history.ResetQuickdiffBaseline" commandName="Reset quickdiff baseline" category="_JBYy8Zn5Eem74dLK77tfKg">
+    <parameters xmi:id="_JBYt7Zn5Eem74dLK77tfKg" elementId="org.eclipse.egit.ui.history.ResetQuickdiffBaselineTarget" name="Reset target (HEAD, HEAD^1)" optional="false"/>
+>>>>>>> a35253ae4ec437b392847abe85060825c5ef4c3f
   </commands>
   <commands xmi:id="_ef2eop0REemmKfCrVt0MmA" elementId="org.eclipse.oomph.p2.ui.SearchRequirements" commandName="Search Requirements" category="_efw_HZ0REemmKfCrVt0MmA"/>
   <commands xmi:id="_ef2eo50REemmKfCrVt0MmA" elementId="org.eclipse.jdt.ui.correction.convertLocalToField.assist" commandName="Quick Assist - Convert local variable to field" description="Invokes quick assist and selects 'Convert local variable to field'" category="_ef0pdJ0REemmKfCrVt0MmA"/>
