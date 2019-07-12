@@ -8,20 +8,20 @@ public class TesteTurma {
 		// TODO Auto-generated method stub
 		
 		Turma t1 = new Turma();
-		t1.ensino = "Tecnico";
-		t1.periodo = "Noturno";
-		t1.serie = 1;
-		t1.sigla = "A";
-		System.out.println("Ensino: " + t1.ensino);
-		System.out.println("Periodo: " + t1.periodo);
+		t1.setEnsino("Tecnico");
+		t1.setPeriodo("Noturno");
+		t1.setSerie(1);
+		t1.setSigla("A");
+		System.out.println("Ensino: " + t1.getEnsino());
+		System.out.println("Periodo: " + t1.getPeriodo());
 		
 		Turma t2 = new Turma();
-		t2.ensino = "Padrao";
-		t2.periodo = "Tarde";
-		t2.serie = 3;
-		t2.sigla = "INFEM";
-		System.out.println("Ensino: " + t2.ensino);
-		System.out.println("Periodo: " + t2.periodo);
+		t2.setEnsino("Padrao");
+		t2.setPeriodo("Tarde");
+		t2.setSerie(3);
+		t2.setSigla("INFEM");
+		System.out.println("Ensino: " + t2.getEnsino());
+		System.out.println("Periodo: " + t2.getPeriodo());
 		
 	}
 }

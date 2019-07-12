@@ -9,7 +9,7 @@ public class TesteConta {
 		// TODO Auto-generated method stub
 		
 		AgenciaBanco ag = new AgenciaBanco(4);
-		ContaBanco cb = new ContaBanco(ag);
+		ContaBanco cb = new ContaBanco(ag, 0);
 		
 		System.out.println("Depósito: " + cb.depositar(5000));
 		System.out.println("Saque: " + cb.saque(1000));

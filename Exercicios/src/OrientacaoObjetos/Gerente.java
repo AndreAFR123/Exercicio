@@ -1,7 +1,15 @@
 package OrientacaoObjetos;
 
 public class Gerente {
-	public double salario;
+	private double salario;
+
+	public double getSalario() {
+		return salario;
+	}
+
+	public void setSalario(double salario) {
+		this.salario = salario;
+	}
 
 	public double aumentoPerc() {
 		return this.salario *= 1.1;

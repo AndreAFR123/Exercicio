@@ -11,71 +11,84 @@ public class Exec {
 		// TODO Auto-generated method stub
 		
 		AgenciaBanco ab1 = new AgenciaBanco(1);
-		ab1.num = 123;
-		System.out.println("NumeroAgencia: " + ab1.num);
+		ab1.setNum(123);
+		System.out.println("NumeroAgencia: " + ab1.getNum());
 		System.out.println("-----------------------");
 		
 		AgenciaBanco ab2 = new AgenciaBanco(2);
-		ab2.num = 400;
-		System.out.println("NumeroAgencia: " + ab2.num);
+		ab2.setNum(400);
+		System.out.println("NumeroAgencia: " + ab2.getNum());
 		System.out.println("-----------------------");
 		
-		ContaBanco cb1 = new ContaBanco(ab2);
-		ContaBanco cb2 = new ContaBanco(ab1);
-		cb1.numCB = 150;
-		cb1.saldo = 1000;
-		cb1.numAg = ab1.num;
-		System.out.println("Limite: " + cb1.limite);
-		System.out.println("Numero: " + cb1.numCB);
-		System.out.println("Saldo: " + cb1.saldo);
-		System.out.println("Número Agencia: " + cb1.numAg);
+		System.out.println("Contador de Objeto: " + ContaBanco.getCont());
+		ContaBanco cb1 = new ContaBanco(ab2, ContaBanco.getCont());
+		
+		System.out.println("Contador de Objeto: " + ContaBanco.getCont());
+		System.out.println("NumConta1: " + cb1.getConta());
+		
+		ContaBanco cb2 = new ContaBanco(ab1, ContaBanco.getCont());
+		System.out.println("Contador de Objeto: " + ContaBanco.getCont());
+		System.out.println("NumConta1: " + cb1.getConta());
+		System.out.println("NumConta2: " + cb2.getConta());
+
+		ContaBanco.zeraContador();
+		
+		System.out.println("Contador de Objeto: " + ContaBanco.getCont());
+
+		cb1.setNumCB(150);
+		cb1.setSaldo(1000);
+		cb1.setNumAg(ab1.getNum());
+		System.out.println("Limite: " + cb1.getLimite());
+		System.out.println("Numero: " + cb1.getNumCB());
+		System.out.println("Saldo: " + cb1.getSaldo());
+		System.out.println("Número Agencia: " + cb1.getNumAg());
 		System.out.println("-----------------------");
 		
-		cb2.numCB = 150;
-		cb2.saldo = 1000;
-		cb2.numAg = ab2.num;
+		cb2.setNumAg(150);
+		cb2.setSaldo(1000);
+		cb2.setNumAg(ab2.getNum());
 		cb2.transfere(cb1, cb2, 1500);
-		System.out.println("Limite: " + cb2.limite);
-		System.out.println("Numero: " + cb2.numCB);
-		System.out.println("Saldo: " + cb2.saldo);
-		System.out.println("Número Agencia: " + cb2.numAg);
+		System.out.println("Limite: " + cb2.getLimite());
+		System.out.println("Numero: " + cb2.getNumCB());
+		System.out.println("Saldo: " + cb2.getSaldo());
+		System.out.println("Número Agencia: " + cb2.getNumAg());
 		System.out.println("-----------------------");
 		
 		System.out.println("-----------------------");
-		System.out.println("Saldo 1: " + cb1.saldo);
-		System.out.println("Saldo 2: " + cb2.saldo);
+		System.out.println("Saldo 1: " + cb1.getSaldo());
+		System.out.println("Saldo 2: " + cb2.getSaldo());
 		System.out.println("-----------------------");
 		
 		Cliente c2 = new Cliente();
-		c2.idC = 2;
-		c2.nome = "Felipe";
-		System.out.println("ID: " + c2.idC);
-		System.out.println("Nome: " + c2.nome);
+		c2.setIdC(2);
+		c2.setNome("Felipe");
+		System.out.println("ID: " + c2.getIdC());
+		System.out.println("Nome: " + c2.getNome());
 		System.out.println("-----------------------");
 		
 		Cliente c1 = new Cliente();
-		c1.idC = 1;
-		c1.nome = "Andre";
-		System.out.println("ID: " + c2.idC);
-		System.out.println("Nome: " + c2.nome);
+		c1.setIdC(1);
+		c1.setNome("Andre");
+		System.out.println("ID: " + c2.getIdC());
+		System.out.println("Nome: " + c2.getNome());
 		System.out.println("-----------------------");
 		
 		CartaoCredito cc1 = new CartaoCredito(4);
-		cc1.num = 1;
-		cc1.validade = 16092002;
-		cc1.idCli = c1.idC;
-		System.out.println("Número Cartao: " + cc1.num);
-		System.out.println("Validade: " + cc1.validade);
-		System.out.println("ID Cliente: " + cc1.idCli);
+		cc1.setNum(1);
+		cc1.setValidade(16092002);
+		cc1.setIdCli(c1.getIdC());
+		System.out.println("Número Cartao: " + cc1.getNum());
+		System.out.println("Validade: " + cc1.getValidade());
+		System.out.println("ID Cliente: " + cc1.getIdCli());
 		System.out.println("-----------------------");
 		
 		CartaoCredito cc2 = new CartaoCredito(5);
-		cc2.num = 1;
-		cc2.validade = 16092002;
-		cc2.idCli = c2.idC;
-		System.out.println("Numero Cartao: " + cc2.num);
-		System.out.println("Validade: " + cc2.validade);
-		System.out.println("ID Cliente: " + cc2.idCli);
+		cc2.setNum(1);
+		cc2.setValidade(16092002);
+		cc2.setIdCli(c2.getIdC());
+		System.out.println("Numero Cartao: " + cc2.getNum());
+		System.out.println("Validade: " + cc2.getValidade());
+		System.out.println("ID Cliente: " + cc2.getIdCli());
 		System.out.println("-----------------------");
 		
 	}
