@@ -12,11 +12,11 @@ public class TesteFuncionario2 {
 		String opcao = "S";
 		
 		while(opcao.equalsIgnoreCase("S")) {
-			f.nome = Teclado.lerTexto("Digite o nome: ");
-			f.salario = Teclado.lerDouble("Digite o salario: ");
+			f.setNome(Teclado.lerTexto("Digite o nome: "));
+			f.setSalario(Teclado.lerDouble("Digite o salario: "));
 			
-			System.out.println("Nome: " + f.nome);
-			System.out.println("Salario: " + f.salario);
+			System.out.println("Nome: " + f.getNome());
+			System.out.println("Salario: " + f.getSalario());
 			opcao = Teclado.lerTexto("Deseja alterar os dados? \nS ou N");
 		}
 

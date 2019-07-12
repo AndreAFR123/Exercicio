@@ -8,19 +8,19 @@ public class TesteAluno {
 		// TODO Auto-generated method stub
 		
 		Aluno al = new Aluno();
-		al.nome = "Felipe";
-		al.numRG = 1231231233;
-		al.dataNasc = "16/09/2002";
-		System.out.println("Nome: " + al.nome);
-		System.out.println("RG: " + al.numRG);
-		System.out.println("Data Nasc: " + al.dataNasc);
+		al.setNome("Felipe");
+		al.setNumRG(1231231233);
+		al.setDataNasc("16/09/2002");
+		System.out.println("Nome: " + al.getNome());
+		System.out.println("RG: " + al.getNumRG());
+		System.out.println("Data Nasc: " + al.getDataNasc());
 		
 		Aluno a2 = new Aluno();
-		a2.nome = "André";
-		a2.numRG = 321321321;
-		a2.dataNasc = "09/02/2000";
-		System.out.println("Nome: " + a2.nome);
-		System.out.println("RG: " + a2.numRG);
-		System.out.println("Data Nasc: " + a2.dataNasc);
+		a2.setNome("Andre");
+		a2.setNumRG(321321321);
+		a2.setDataNasc("09/02/2000");
+		System.out.println("Nome: " + a2.getNome());
+		System.out.println("RG: " + a2.getNumRG());
+		System.out.println("Data Nasc: " + a2.getDataNasc());
 	}
 }

@@ -1,0 +1,77 @@
+
+47.    Dentro de seu pacote de exercícios crie um pacote chamado static para os arquivos desenvolvidos.
+
+
+48.    Na classe Conta, defina um atributo de classe para contabilizar o número de objetos instanciados a partir da classe Conta. Esse atributo deve ser incrementado toda vez que um objeto é criado. Você pode utilizar construtores para fazer o incremento.
+
+
+49.    Faça um teste criando dois objetos da classe Conta. Imprima o valor do contador de contas antes e depois da criação de cada objeto.
+
+50.    O contador de contas pode ser utilizado para gerar um número único para cada conta. Acrescente na classe Conta um atributo de instância para guardar o número das contas. Implemente no construtor a lógica para gerar esses números de forma única através do contador de contas.
+
+
+51.    Altere o teste para imprimir o número de cada conta criada.
+
+
+52.    Adicione um método de classe na classe Conta para zerar o contador e imprimir o total de contas anterior.
+
+
+53.    Altere o teste para utilizar o método zeraContador().
+
+
+54.    Na classe Funcionario, defina um atributo para armazenar o valor do vale refeição diário pago aos funcionários.
+
+
+55.    Faça um teste para verificar o funcionamento do vale refeição.
+
+
+56.    Defina um método para reajustar o vale refeição diário a partir de uma taxa.
+
+
+57.    Faça um teste para verificar o funcionamento do reajuste do vale refeição.
+
+
+58.    Aplique a ideia do encapsulamento tornando os atributos definidos na classe Funcionario privados.
+
+
+59.    Tente compilar novamente a classe Teste. Observe os erros de compilação. Lembre-se que um atributo privado só pode ser acessado por código escrito na própria classe do atributo.
+
+
+60.    Crie métodos de acesso com nomes padronizados para os atributos definidos na classe Funcionario.
+
+
+61.    Altere a classe Teste para que ela utilize os métodos de acesso ao invés de manipular os atributos do objeto da classe Funcionario diretamente.
+
+
+62.    Gere os getters e setters com os recursos do Eclipse. Para isso, remova os métodos que você criou na classe Funcionario.
+
+
+63.    Aplique a ideia do encapsulamento tornando os atributos definidos de todas as classes de modelagem privados e gere os getters e setters com os recursos do Eclipse.
+
+
+64.    Crie uma classe para cada tipo específico de funcionário herdando da classe Funcionario. Considere apenas três tipos específicos de funcionários: gerentes, telefonistas e secretarias. Os gerentes possuem um nome de usuário e uma senha para acessar o sistema do banco. As telefonistas possuem um código de estação de trabalho. As secretarias possuem um número de ramal.
+
+
+65.    Teste o funcionamento dos três tipos de funcionários criando um objeto de cada uma das classes: Gerente, Telefonista e Secretaria.
+
+
+66.    Suponha que todos os funcionários recebam uma bonificação de 10% do salário. Acrescente um método na classe Funcionario para calcular essa bonificação.
+
+
+67.    Altere a classe TestaFuncionarios para imprimir a bonificação de cada funcionário, além dos dados que já foram impressos. Depois, execute o teste novamente.
+
+
+68.    Suponha que os gerentes recebam uma bonificação maior que os outros funcionários. Reescreva o método calculaBonificacao() na classe Gerente. Depois, compile e execute o teste novamente.
+
+
+69.    Defina na classe Funcionario um método para imprimir na tela o nome, salário e bonificação dos funcionários.
+
+
+70.    Reescreva o método que imprime os dados dos funcionários nas classes Gerente, Telefonista e Secretaria para acrescentar a impressão dos dados específicos de cada tipo de funcionário.
+
+
+71.    Modifique a classe TestaFuncionarios para utilizar o método mostraDados(). (editado) 
+Entrada de mensagem
+
+
+Mensagem de #entra21

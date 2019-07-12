@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="OrientacaoObjetos.Gerente"/>
-    <fullyQualifiedTypeName name="OrientacaoObjetos.ContaBanco"/>
     <fullyQualifiedTypeName name="teste.ArrayMetodo"/>
     <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="br.com.util.Teclado"/>
+    <fullyQualifiedTypeName name="OrientacaoObjetos.ContaBanco"/>
+    <fullyQualifiedTypeName name="OrientacaoObjetos.GerenteFunc"/>
+    <fullyQualifiedTypeName name="OrientacaoObjetos.Telefonista"/>
+    <fullyQualifiedTypeName name="OrientacaoObjetos.Secretaria"/>
+    <fullyQualifiedTypeName name="OrientacaoObjetos.Funcionario"/>
 </qualifiedTypeNameHistroy>
