@@ -1,0 +1,7 @@
+package OrientacaoObjetos;
+
+public class Telefonista extends Funcionario{
+
+	int idEstacaoTrab;
+	
+}

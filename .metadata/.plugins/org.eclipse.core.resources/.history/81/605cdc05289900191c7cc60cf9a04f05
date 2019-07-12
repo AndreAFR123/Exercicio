@@ -1,0 +1,18 @@
+package br.com.questoes;
+
+import br.com.util.Teclado;
+
+public class Questao13 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int num = Teclado.lerInt("Digite um numero: ");
+		double polegada = 2.54;
+		for(int i = 0; i < num; i++) {
+			polegada = i * 2.54;
+			System.out.println(polegada);
+		}
+		
+	}
+}

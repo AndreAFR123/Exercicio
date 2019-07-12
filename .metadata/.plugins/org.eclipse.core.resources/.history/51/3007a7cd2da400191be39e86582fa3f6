@@ -1,0 +1,21 @@
+package OrientacaoObjetos;
+
+public class Funcionario {
+	public String nome;
+	public double salario = 1000;
+	public static double valeRefei;
+	
+	public double aumentaSal(double aumento) {
+		this.salario += aumento;
+		return aumento;
+	}
+	
+	public static double reajusteVale() {
+		Funcionario.valeRefei += Funcionario.valeRefei * 0.1;
+		return valeRefei;
+	}
+	
+	public void consultaDado() {
+		System.out.printf("Nome: %s \nSalário: %.1f ", this.nome, this.salario);
+	}
+}

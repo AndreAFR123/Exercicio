@@ -1,0 +1,39 @@
+package br.com.lista1;
+
+import br.com.util.Teclado;
+
+public class Questao13 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double a, b, c;
+		a = Teclado.lerDouble("Digite um valor: ");
+		b = Teclado.lerDouble("Digite um valor: ");
+		c = Teclado.lerDouble("Digite um valor: ");
+		
+		if(a < b && a < c) {
+			System.out.print(a);
+		} else if(b < a && b < c) {
+			System.out.println(b);
+		} else {
+			System.out.println(c);
+		}
+		
+		if(b < a && b < c) {
+			System.out.println(b);
+		} else if(a < b && a < c) {
+			System.out.println(a);
+		} else {
+			System.out.println(c);
+		}
+		
+		if(c < b && c < a) {
+			System.out.print(c);
+		} else if(b < a && b < c) {
+			System.out.println(b);
+		} else {
+			System.out.println(a);
+		}
+	}
+}

@@ -1,0 +1,15 @@
+package OrientacaoObjetos;
+
+public class Secretaria extends Funcionario{
+
+	private double numRamal;
+
+	public double getNumRamal() {
+		return numRamal;
+	}
+
+	public void setNumRamal(double numRamal) {
+		this.numRamal = numRamal;
+	}
+	
+}

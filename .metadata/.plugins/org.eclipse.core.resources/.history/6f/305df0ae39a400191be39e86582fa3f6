@@ -1,0 +1,12 @@
+package OrientacaoObjetos;
+
+public class GerenteFunc extends Funcionario{
+	
+	public String nomeUsuario, senha;
+	public double salarioGerente = 1000;
+	
+	public double calculaBonificacao() {
+		setBonifica(salarioGerente += getSalario() * 0.2);
+		return getBonifica();  
+	}
+}

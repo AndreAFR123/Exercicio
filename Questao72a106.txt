@@ -1,0 +1,103 @@
+72.	Crie um pacote chamado polimorfismo.
+
+
+73.	Defina uma classe genérica para modelar as contas do banco.
+
+
+74.	Defina duas classes específicas para dois tipos de contas do banco: poupança e corrente.
+
+
+75.	Defina uma classe para especificar um gerador de extratos.
+
+
+76.	Faça um teste para o gerador de extratos.
+
+
+77.	Defina uma classe para modelar de forma genérica os funcionários do banco.
+
+
+78.	Implemente duas classes específicas para modelar dois tipos particulares de funcionários do banco: os gerentes e as telefonistas.
+
+
+79.	Implemente o controle de ponto dos funcionários. Crie uma classe com dois métodos: o primeiro para registrar a entrada dos funcionários e o segundo para registrar a saída.
+
+
+80.	Teste a lógica do controle de ponto, registrando a entrada e a saída de um gerente e de uma telefonista.
+
+
+81.	Crie um pacote chamado classes-abstratas.
+
+
+82.	Defina uma classe genérica para modelar as contas do banco.
+
+
+83.	Crie um teste simples para utilizar objetos da classe Conta.
+
+
+84.	Torne a classe Conta abstrata e verifique o que acontece na classe de teste.
+
+
+85.	Defina uma classe para modelar as contas poupança do nosso banco.
+
+
+86.	Altere a classe TestaConta para corrigir o erro de compilação.
+
+
+87.	Defina um método abstrato na classe Conta para gerar extratos detalhados.
+
+
+88.	O que acontece com a classe ContaPoupanca?
+
+
+89.	Defina uma implementação do método imprimeExtratoDetalhado() na classe ContaPoupanca.
+
+
+90.	Altere a classe TestaConta para chamar o método imprimeExtratoDetalhado().
+
+
+91.	Defina uma classe genérica para modelar os funcionários do banco.
+
+
+92.	Crie um objeto da classe que modela os funcionários do banco e utilize os métodos de acesso com nomes padronizados para alterar os valores dos atributos.
+
+
+93.	Torne a classe que modela os funcionários do banco abstrata e verifique o que acontece na classe de teste.
+
+
+94.	Defina uma classe para modelar os gerentes do nosso banco.
+
+
+95.	Altere a classe de teste e crie um objeto da classe que modela os gerentes.
+
+
+96.	Defina um método abstrato na classe que modela os funcionários para calcular a bonificação dos colaboradores.
+
+
+97.	O que acontece com a classe que modela os gerentes?
+
+
+98.	Implemente o método que calcula a bonificação na classe que modela os gerentes.
+
+
+99.	Altere a classe de teste para que o método que calcula a bonificação seja chamada e o valor seja impresso na tela.
+
+
+100.	Crie um pacote chamado Interfaces.
+
+
+101.	Defina uma interface para padronizar as assinaturas dos métodos das contas do banco.
+
+
+102.	Agora, crie algumas classes para modelar tipos diferentes de conta.
+
+
+103.	Faça um teste simples com as classes criadas anteriormente.
+
+
+104.	Altere a assinatura do método deposita() na classe ContaCorrente. Você pode acrescentar um “r” no nome do método. O que acontece? Obs: desfaça a alteração depois deste exercício.
+
+
+105.	Crie um gerador de extratos com um método que pode trabalhar com todos os tipos de conta.
+
+
+106.	Teste o gerador de extrato.

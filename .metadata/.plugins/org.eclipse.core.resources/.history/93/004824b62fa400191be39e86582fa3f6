@@ -1,0 +1,39 @@
+package TesteClasse;
+
+import OrientacaoObjetos.Funcionario;
+import OrientacaoObjetos.GerenteFunc;
+import OrientacaoObjetos.Secretaria;
+import OrientacaoObjetos.Telefonista;
+
+public class TesteFuncionario {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Funcionario f1 = new Funcionario();
+		
+		Funcionario g1 = new GerenteFunc();
+		Funcionario t1 = new Telefonista();
+		Funcionario s1 = new Secretaria();
+		
+		g1.nome
+		
+		f1.setNome("Alicio");
+		f1.setSalario(1000);;
+		Funcionario.setValeRefei(300);
+		System.out.println("Nome: " + f1.getNome());
+		System.out.println("Salario: " + f1.getSalario());
+		System.out.println("Vale Refeição: " + Funcionario.getValeRefei());
+		System.out.println("Reajuste: " + Funcionario.reajusteVale());
+		
+		Funcionario f2 = new Funcionario();
+		f2.setNome("Alicio");
+		f2.setSalario(10000);
+		System.out.println("Nome: " + f2.getNome());
+		System.out.println("Salario: " + f2.getSalario());
+		
+		System.out.println("Aumento: " + f1.aumentaSal(500));
+		System.out.println("-----Consulta-----");
+		f1.consultaDado();
+	}
+}

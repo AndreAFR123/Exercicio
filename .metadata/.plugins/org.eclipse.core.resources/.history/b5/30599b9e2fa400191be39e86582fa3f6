@@ -1,0 +1,7 @@
+package OrientacaoObjetos;
+
+public class GerenteFunc extends Funcionario{
+	
+	String nomeUsuario, senha;
+	
+}

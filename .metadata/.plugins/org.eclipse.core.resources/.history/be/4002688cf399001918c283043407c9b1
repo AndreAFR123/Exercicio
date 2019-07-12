@@ -1,0 +1,18 @@
+package br.com.lista2;
+
+public class Questao13 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int mult = 0;
+		
+		for(int i = 0; i < 11; i++) {
+			System.out.println();
+			for(int j = 3; j < 7; j++) {
+				mult = j * i;
+				System.out.println(i + " . " + j + " = " + mult);
+			}
+		}
+	}
+}

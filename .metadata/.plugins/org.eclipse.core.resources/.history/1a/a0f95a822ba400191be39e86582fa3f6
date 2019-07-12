@@ -1,0 +1,47 @@
+package OrientacaoObjetos;
+
+public class ContaBanco {
+	public int numCB;
+	public double saldo;
+	public double limite = 100;
+	public int numAg;
+	public String extrato;
+	public AgenciaBanco agencia;
+	public static int cont = 0;
+	public int conta;
+
+	public ContaBanco(AgenciaBanco agencia, int conta) {
+		this.agencia = agencia;
+		ContaBanco.cont++;
+		this.conta = cont;
+}
+	
+	public static int zera() {
+		cont = 0;
+		return ContaBanco.cont;
+	}
+
+	public void transfere(ContaBanco conta1,ContaBanco conta2, double saldo) {
+		conta1.saldo -= saldo;
+		conta2.saldo += saldo;
+	}
+
+	public double depositar(double deposita) {
+		this.saldo += deposita;
+		return this.saldo;
+	}
+
+	public double saque(double saque) {
+		this.saldo -= saque;
+		return saque;
+	}
+
+	public double consultaSaldo() {
+		return this.saldo;
+	}
+
+	public String extrato() {
+		extrato = "Saldo: " + this.saldo + "\nLimite: " + this.limite;
+		return extrato;
+	}
+}

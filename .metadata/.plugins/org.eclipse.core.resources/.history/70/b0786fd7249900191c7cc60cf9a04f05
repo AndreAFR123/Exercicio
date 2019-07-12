@@ -1,0 +1,15 @@
+package br.com.questoes;
+
+public class Questao05 {
+
+	public static void main(String[] args) {
+		
+		int poten = 0;
+		for(int i = 0; i < 11  ; i++) {
+			for(int j = 0; j < 11; j++) {
+				poten = i * j;
+				System.out.println(poten);
+			}
+		}
+	}
+}
