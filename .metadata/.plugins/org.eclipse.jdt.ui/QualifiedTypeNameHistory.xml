@@ -11,4 +11,12 @@
     <fullyQualifiedTypeName name="OrientacaoObjetos.Secretaria"/>
     <fullyQualifiedTypeName name="OrientacaoObjetos.Funcionario"/>
     <fullyQualifiedTypeName name="polimorfismo.Conta"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="polimorfismo.Funcionario"/>
+    <fullyQualifiedTypeName name="polimorfismo.Gerente"/>
+    <fullyQualifiedTypeName name="polimorfismo.Telefonista"/>
+    <fullyQualifiedTypeName name="interfaces.ContaCorrente"/>
+    <fullyQualifiedTypeName name="interfaces.ContaPoupanca"/>
 </qualifiedTypeNameHistroy>

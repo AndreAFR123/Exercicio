@@ -1,0 +1,13 @@
+package classes_abstratas;
+
+public class TesteFuncionario {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Funcionario f = new Funcionario();
+		f.setNome("Andre");
+		f.setSalario(10000.00);
+		
+	}
+}

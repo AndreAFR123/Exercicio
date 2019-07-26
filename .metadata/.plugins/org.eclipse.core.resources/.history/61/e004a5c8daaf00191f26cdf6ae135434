@@ -1,0 +1,35 @@
+package interfaces;
+
+public interface Conta {
+	public int getNumCB();
+
+	public void setNumCB(int numCB);
+
+	public double getSaldo() ;
+
+	public void setSaldo(double saldo);
+	
+	public double getLimite();
+
+	public void setLimite(double limite);
+
+	public int getNumAg();
+
+	public void setNumAg(int numAg);
+
+	public String getExtrato();
+
+	public void setExtrato(String extrato);
+
+	public int getConta();
+
+	public void setConta(int conta);
+
+	public double depositar(double deposita) ;
+
+	public double saque(double saque);
+
+	public double consultaSaldo();
+
+	public String extrato();
+}
