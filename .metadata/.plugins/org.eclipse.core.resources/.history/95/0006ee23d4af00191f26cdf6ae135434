@@ -1,0 +1,30 @@
+package polimorfismo;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class Funcionario {
+	
+	private String nomeFunc;
+	SimpleDateFormat data = new SimpleDateFormat("dd/MM/yyyy hh:mm:ss");
+	Date agora = new Date();
+	
+	public String getNomeFunc() {
+		return nomeFunc;
+	}
+	public void setNomeFunc(String nomeFunc) {
+		this.nomeFunc = nomeFunc;
+	}
+	
+	public String entradaFunc() {
+		String entrada;
+		entrada = "Nome: " + getNomeFunc() + "\nEntrada: " + data.format(agora);
+		return entrada;
+	}
+	
+	public String saidaFunc() {
+		String saida;
+		saida = "Nome: " + getNomeFunc() + "Saida: " + data.format(agora);
+		return saida;
+	}
+}

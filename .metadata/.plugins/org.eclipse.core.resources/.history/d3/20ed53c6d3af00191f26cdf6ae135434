@@ -1,0 +1,22 @@
+package teste.polimorfismo;
+
+import polimorfismo.Gerente;
+import polimorfismo.Telefonista;
+
+public class TesteControlePonto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Gerente g1 = new Gerente();
+		g1.setNomeFunc("Alicio");
+		g1.entradaFunc();
+		g1.saidaFunc();
+		
+		Telefonista t1 = new Telefonista();
+		t1.setNomeFunc("Amanda");
+		t1.entradaFunc();
+		t1.saidaFunc();
+		
+	}
+}

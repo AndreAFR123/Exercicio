@@ -1,0 +1,14 @@
+package teste.polimorfismo;
+
+import polimorfismo.Gerente;
+
+public class TesteControlePonto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Gerente g1 = new Gerente();
+		g1.entradaFunc();
+		
+	}
+}
