@@ -4,19 +4,15 @@
 		<item key="dialogHeight" value="669"/>
 		<item key="dialogWidth" value="829"/>
 		<list key="orderedElements">
-			<item value="org.eclipse.jdt.ui.edit.text.java.create.getter.setter"/>
 			<item value="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
 		</list>
 		<list key="orderedProviders">
-			<item value="org.eclipse.ui.commands"/>
 			<item value="org.eclipse.ui.wizards"/>
 		</list>
 		<list key="textEntries">
 			<item value="1"/>
-			<item value="1"/>
 		</list>
 		<list key="textArray">
-			<item value="ggas"/>
 			<item value="new class"/>
 		</list>
 	</section>
