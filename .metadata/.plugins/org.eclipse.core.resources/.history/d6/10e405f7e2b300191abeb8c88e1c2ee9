@@ -1,0 +1,16 @@
+package exception;
+
+public class ArgumentIllegal {
+
+	public static void main(String[] args) {
+
+		int valor = 10;
+
+		if (valor < 0) {
+			IllegalArgumentException erro = new IllegalArgumentException();
+			throw erro;
+		} else {
+			System.out.println("OPA");
+		}
+	}
+}

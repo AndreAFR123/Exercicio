@@ -1,0 +1,17 @@
+ package exception;
+
+public class ArgumentIllegal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		public void deposita (double valor) {
+			if(valor < 0) {
+				IllegalArgumentException erro = new IllegalArgumentException();
+				throw erro;
+			} else {
+				
+			}
+		}
+	}
+}
