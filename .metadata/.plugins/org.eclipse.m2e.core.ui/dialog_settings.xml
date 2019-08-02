@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\AndreWorkspace\api-proway"/>
+			<item value="C:\AndreWorkspace"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -46,9 +48,12 @@
 			<item value="br.com"/>
 		</list>
 		<list key="name">
+			<item value="api-proway"/>
 			<item value="api-entra21"/>
 		</list>
 		<list key="artifactId">
+			<item value="proway"/>
+			<item value="entra21"/>
 			<item value="apientra21"/>
 		</list>
 		<list key="projectNameTemplate">
